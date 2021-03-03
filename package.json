@@ -31,7 +31,7 @@
   },
   "build": {
     "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "appId": "tech.heartfelt.ElectronReact",
     "files": [
       "dist/",
       "node_modules/",
