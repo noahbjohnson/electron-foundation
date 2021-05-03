@@ -45,7 +45,7 @@
       "target": [
         "dmg"
       ],
-      "type": "distribution",
+      "type": "draft",
       "hardenedRuntime": true,
       "entitlements": "assets/entitlements.mac.plist",
       "entitlementsInherit": "assets/entitlements.mac.plist",
@@ -86,8 +86,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "noahbjohnson",
+      "repo": "electron-foundation"
     }
   },
   "repository": {
