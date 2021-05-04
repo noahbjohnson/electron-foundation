@@ -45,7 +45,7 @@
       "target": [
         "dmg"
       ],
-      "type": "draft",
+      "type": "development",
       "hardenedRuntime": true,
       "entitlements": "assets/entitlements.mac.plist",
       "entitlementsInherit": "assets/entitlements.mac.plist",
