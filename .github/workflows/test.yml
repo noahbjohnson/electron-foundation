@@ -8,7 +8,14 @@ jobs:
 
     strategy:
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest, macos-11]
+        os:
+          [
+            macos-latest,
+            windows-latest,
+            ubuntu-latest,
+            macos-10.14,
+            macos-10.13,
+          ]
 
     steps:
       - name: Check out Git repository
