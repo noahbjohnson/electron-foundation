@@ -1,7 +1,7 @@
 {
   "name": "electron-foundation",
   "productName": "ElectronFoundation",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0-alpha.1",
   "description": "An opinionated boilerplate for an express app written with React and TypeScript",
   "main": "./main.prod.js",
   "author": {
