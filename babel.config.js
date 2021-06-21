@@ -56,6 +56,9 @@ module.exports = (api) => {
       [require('@babel/plugin-proposal-class-properties'), { loose: true }],
       require('@babel/plugin-proposal-json-strings'),
 
+      // install script told me to put this here
+      ['@babel/plugin-proposal-private-methods', { loose: true }],
+
       ...(development ? developmentPlugins : productionPlugins),
     ],
   };

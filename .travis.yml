@@ -3,14 +3,12 @@ matrix:
     - os: osx
       language: node_js
       node_js:
-        - 15
       env:
         - ELECTRON_CACHE=$HOME/.cache/electron
         - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
     - os: linux
       language: node_js
       node_js:
-        - 15
       services:
         - xvfb
       addons:
